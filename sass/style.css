@@ -78,6 +78,19 @@ h5 {
   border-color: #BCD0E5;
 }
 
+.logo {
+  font-size: 2rem;
+  color: #2F281E;
+  font-weight: 900;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px #2F281E, 0 0 1em;
+  transition: all 0.3s ease-out;
+}
+
+.logo:hover {
+  color: #FF9900;
+}
+
 .wrapper {
   max-width: 1197px;
   margin: auto;

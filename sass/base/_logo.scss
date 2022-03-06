@@ -1,0 +1,12 @@
+.logo{
+    font-size: 2rem;
+    color: $color-heading;
+    font-weight: 900;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px $color-heading,0 0 1em;
+    transition: all 0.3s ease-out;
+}
+
+.logo:hover {
+    color:$color-primary;
+}

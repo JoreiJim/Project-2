@@ -1,8 +1,13 @@
+@import "../node_modules/normalize-scss/sass/_normalize.scss";
+
+//Abstracts
 @import "abstracts/constants";
+@import "abstracts/placeholders";
 
 //Base
 @import "base/base";
 @import "base/buttons";
+@import "base/logo";
 
 //Layuots
 @import "layuots/wrapper";

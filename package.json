@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JoreiJim/Project-2/issues"
   },
-  "homepage": "https://github.com/JoreiJim/Project-2#readme"
+  "homepage": "https://github.com/JoreiJim/Project-2#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }
