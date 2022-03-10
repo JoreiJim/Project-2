@@ -3,6 +3,7 @@
 //Abstracts
 @import "abstracts/constants";
 @import "abstracts/placeholders";
+@import "abstracts/mixins";
 
 //Base
 @import "base/base";
@@ -15,4 +16,5 @@
 
 //Components
 @import "components/contact-us";
-@import "components/promo"
+@import "components/promo";
+@import "components/navigation";
