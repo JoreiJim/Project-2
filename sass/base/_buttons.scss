@@ -1,5 +1,5 @@
 .button{
-    font-family: $font-family;
+    @extend %font-prim;
     padding: 11px 25px 13px;
     font-style: normal;
     font-weight: 600;
@@ -27,6 +27,21 @@
             border-color: $color-additional;
         }
      
+    }
+}
+
+.link_button{
+    color: $color-primary;
+    @extend %font-add;
+    display: inline-flex;
+    align-items: center;
+}
+
+.link_button__text{
+    margin-left: 0.9rem;
+    &:hover{
+        color: $color-additional;
+        border-color: $color-additional;
     }
 }
 

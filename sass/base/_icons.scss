@@ -1,0 +1,14 @@
+.ico{
+    cursor: pointer;
+    display: inline-block;
+    
+  }
+
+.ico__play{
+    background-image: url("../../img/icons/icon_play.svg");
+    
+    
+    width: 18px;
+    height: 19px;
+    @extend %transition;
+}
