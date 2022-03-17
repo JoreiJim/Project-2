@@ -475,10 +475,59 @@ h5 {
   display: inline-block;
 }
 
+.ico-square {
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.ico-square_yellow {
+  background-color: #FAB005;
+}
+.ico-square_red {
+  background-color: #F03E3D;
+}
+.ico-square_blue {
+  background-color: #4DADF7;
+}
+.ico-square_violet {
+  background-color: #7752BE;
+}
+
 .ico__play {
   background-image: url("../../img/icons/icon_play.svg");
   width: 18px;
   height: 19px;
+}
+
+.ico_arrow {
+  background-image: url(../../img/icons/icon_arrow.png);
+  width: 22px;
+  height: 22px;
+  filter: invert(100%);
+}
+
+.ico_polls {
+  background-image: url(../../img/icons/icon_polls.png);
+  width: 24px;
+  height: 24px;
+  filter: invert(100%);
+}
+
+.ico_heart {
+  background-image: url(../../img/icons/icon_heart.png);
+  width: 24px;
+  height: 24px;
+  filter: invert(100%);
+}
+
+.ico_hourglass {
+  background-image: url(../../img/icons/icon_hourglass.png);
+  width: 24px;
+  height: 24px;
+  filter: invert(100%);
 }
 
 .wrapper {
@@ -521,7 +570,7 @@ h5 {
   justify-content: space-between;
 }
 .layout-3-columns > * {
-  flex-basis: 33%;
+  flex-basis: 27%;
 }
 
 .layaout-2-columns {
@@ -530,7 +579,7 @@ h5 {
   justify-content: space-between;
 }
 .layaout-2-columns > * {
-  flex-basis: 49%;
+  flex-basis: 45%;
 }
 
 .contact-us {
@@ -581,6 +630,13 @@ h5 {
 }
 .navigation_link:hover {
   color: #FF9900;
+}
+
+.tools__title {
+  max-width: 462px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 70px;
 }
 
 /*# sourceMappingURL=style.css.map */
