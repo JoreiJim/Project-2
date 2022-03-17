@@ -2,11 +2,11 @@
     padding: 30px 0;
 }
 
-
 .promo__wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .promo__title{
@@ -25,6 +25,6 @@
     max-width: 487;
     margin: 0 0 45px;
     @extend %font-add;
-    @include font($size: 1.8rem, $height: 2.8 rem, $weight: normal);
-    
+    @include font($size: 1.8rem, $height: 2.8 rem, $weight: normal);    
 }
+

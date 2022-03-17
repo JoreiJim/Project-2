@@ -1,0 +1,10 @@
+.tags{
+    display: flex;
+    >*{
+        margin-right: 7px;
+    }
+}
+
+.tag {
+    border-radius: 90px;
+}

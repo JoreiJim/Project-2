@@ -4,3 +4,27 @@
     text-align: center;
     padding-bottom: 70px;
 }
+
+.tool__icon{
+    margin-bottom: 30px;
+}
+
+.tool_text{
+    margin: 0 0 16px;
+    @extend %font-add;
+    @include font($size: 1.8rem, $height: 2.8 rem, $weight: normal);
+}
+
+.tools__button{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.tools_wrapper{
+    padding-bottom: 90px;     
+    background-image: url(../../img/background/background_tools.svg);  
+    background-position: center bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+

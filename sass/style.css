@@ -363,7 +363,7 @@ section, main, footer, header, article {
   font-family: "Open Sans", Verdana, sans-serif;
 }
 
-.promo__text, .link_button, h1 {
+.strategies__description, .tool_text, .promo__text, .link_button, h1 {
   font-family: "Poppins", Verdana, sans-serif;
 }
 
@@ -530,6 +530,17 @@ h5 {
   filter: invert(100%);
 }
 
+.tags {
+  display: flex;
+}
+.tags > * {
+  margin-right: 7px;
+}
+
+.tag {
+  border-radius: 90px;
+}
+
 .wrapper {
   max-width: 1197px;
   margin: auto;
@@ -637,6 +648,51 @@ h5 {
   margin: auto;
   text-align: center;
   padding-bottom: 70px;
+}
+
+.tool__icon {
+  margin-bottom: 30px;
+}
+
+.tool_text {
+  margin: 0 0 16px;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.8 rem;
+}
+
+.tools__button {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.tools_wrapper {
+  padding-bottom: 90px;
+  background-image: url(../../img/background/background_tools.svg);
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.strategies {
+  padding: 30px 0;
+}
+
+.strategies__title {
+  margin: 0 0 14 px;
+}
+
+.strategies__description {
+  margin: 0 0 24px;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.8 rem;
+}
+
+.strategies__tags {
+  margin-bottom: 31px;
 }
 
 /*# sourceMappingURL=style.css.map */

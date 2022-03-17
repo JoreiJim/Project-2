@@ -1,0 +1,19 @@
+.strategies{
+    padding:  30px 0;
+    
+}
+
+.strategies__title{
+    margin: 0 0 14 px;
+    
+}
+
+.strategies__description{
+    margin: 0 0 24px;
+    @extend %font-add;
+    @include font($size: 1.8rem, $height: 2.8 rem, $weight: normal); 
+}
+
+.strategies__tags{
+    margin-bottom: 31px;
+}
