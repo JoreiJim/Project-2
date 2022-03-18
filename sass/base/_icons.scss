@@ -26,35 +26,35 @@
 }
 
 .ico__play{
-    background-image: url("../../img/icons/icon_play.svg");    
+    background-image: url("/img/icons/icon_play.svg");    
     width: 18px;
     height: 19px;
     @extend %transition;
 }
 
 .ico_arrow{
-  background-image: url(../../img/icons/icon_arrow.png);  
+  background-image: url(/img/icons/icon_arrow.png);  
   width: 22px;
   height: 22px;
   filter: invert(100%); 
  }
 
  .ico_polls {
-     background-image: url(../../img/icons/icon_polls.png);
+     background-image: url(/img/icons/icon_polls.png);
      width: 24px;
      height: 24px;
      filter: invert(100%)
  }
 
  .ico_heart {
-   background-image: url(../../img/icons/icon_heart.png);
+   background-image: url(/img/icons/icon_heart.png);
    width: 24px;
    height: 24px;
    filter: invert(100%);
  }
 
  .ico_hourglass{
-  background-image: url(../../img/icons/icon_hourglass.png);
+  background-image: url(/img/icons/icon_hourglass.png);
   width: 24px;
   height: 24px;
   filter: invert(100%);
