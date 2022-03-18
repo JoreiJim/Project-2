@@ -497,34 +497,34 @@ h5 {
 }
 
 .ico__play {
-  background-image: url("../../img/icons/icon_play.svg");
+  background-image: url("../img/icons/icon_play.svg");
   width: 18px;
   height: 19px;
 }
 
 .ico_arrow {
-  background-image: url(../../img/icons/icon_arrow.png);
+  background-image: url(../img/icons/icon_arrow.png);
   width: 22px;
   height: 22px;
   filter: invert(100%);
 }
 
 .ico_polls {
-  background-image: url(../../img/icons/icon_polls.png);
+  background-image: url(../img/icons/icon_polls.png);
   width: 24px;
   height: 24px;
   filter: invert(100%);
 }
 
 .ico_heart {
-  background-image: url(../../img/icons/icon_heart.png);
+  background-image: url(../img/icons/icon_heart.png);
   width: 24px;
   height: 24px;
   filter: invert(100%);
 }
 
 .ico_hourglass {
-  background-image: url(../../img/icons/icon_hourglass.png);
+  background-image: url(../img/icons/icon_hourglass.png);
   width: 24px;
   height: 24px;
   filter: invert(100%);
@@ -539,6 +539,23 @@ h5 {
 
 .tag {
   border-radius: 90px;
+  padding: 0 14px;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.8rem;
+  margin-left: 10px;
+}
+.tag_selected {
+  background-color: #FF9900;
+  color: #ffffff;
+}
+.tag_border {
+  border: 1px solid #D7D7D7;
+}
+
+img {
+  border-radius: 10px;
 }
 
 .wrapper {
@@ -628,6 +645,10 @@ h5 {
   line-height: 2.8 rem;
 }
 
+.promo__img {
+  border-radius: 10px;
+}
+
 .navigation {
   display: flex;
   font-size: 1.5rem;
@@ -693,6 +714,16 @@ h5 {
 
 .strategies__tags {
   margin-bottom: 31px;
+}
+
+.block-shadowed {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.strategies_text {
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

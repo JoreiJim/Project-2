@@ -3,8 +3,25 @@
     >*{
         margin-right: 7px;
     }
+    
 }
 
 .tag {
     border-radius: 90px;
+    padding: 0 14px;
+    @include font($size: 1.3rem, $height: 2.8rem, $weight: normal);
+
+    &_selected{
+        background-color: $color-primary;
+        color: $color-light;
+    }
+    &_border{
+        border: 1px solid $color-border;
+    }
+    margin-left: 10px;
 }
+
+img{
+    border-radius: 10px;
+}
+
