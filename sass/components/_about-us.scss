@@ -1,0 +1,47 @@
+.about_text{
+    @extend %font-add;
+    @include font($size: 1.8rem, $height: 2.8 rem, $weight: normal);  
+    margin-left: 10px;     
+}
+
+.foto{
+    border-radius: 30px;
+    display: inline-block;
+    position: right;
+}
+
+.employee__content{
+    display: flex;    
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 15px;
+}
+
+.block{       
+    margin-right: 20px;
+    *>{
+        margin-bottom: 0px;
+    }    
+}
+
+.employee__title{
+    @extend %font-add;
+    @include font($size: 1.6rem, $height: 2.0 rem, $weight: normal);  
+}
+
+.employee img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.link{
+    @extend %font-add;
+    
+       
+}
+
+.link:hover{
+    color: $color-primary;
+    @extend %font-add;
+
+}

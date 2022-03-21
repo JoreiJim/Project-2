@@ -18,10 +18,14 @@
     &_border{
         border: 1px solid $color-border;
     }
-    margin-left: 10px;
+    //margin-left: 10px;
 }
 
 img{
     border-radius: 10px;
+}
+
+.tag:first-child{
+    margin-left: 10px;
 }
 

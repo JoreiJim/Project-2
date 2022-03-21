@@ -345,11 +345,6 @@ section, main, footer, header, article {
   box-sizing: border-box;
 }
 
-.employee img {
-  width: 21rem;
-  height: 21rem;
-}
-
 .strategies img {
   width: 35rem;
   height: 29rem;
@@ -363,7 +358,7 @@ section, main, footer, header, article {
   font-family: "Open Sans", Verdana, sans-serif;
 }
 
-.strategies__description, .tool_text, .promo__text, .link_button, h1 {
+.link:hover, .link, .employee__title, .about_text, .strategies__description, .tool_text, .promo__text, .link_button, h1 {
   font-family: "Poppins", Verdana, sans-serif;
 }
 
@@ -544,7 +539,6 @@ h5 {
   font-style: normal;
   font-weight: normal;
   line-height: 2.8rem;
-  margin-left: 10px;
 }
 .tag_selected {
   background-color: #FF9900;
@@ -556,6 +550,10 @@ h5 {
 
 img {
   border-radius: 10px;
+}
+
+.tag:first-child {
+  margin-left: 10px;
 }
 
 .wrapper {
@@ -710,6 +708,7 @@ img {
   font-style: normal;
   font-weight: normal;
   line-height: 2.8 rem;
+  margin-left: 10px;
 }
 
 .strategies__tags {
@@ -724,6 +723,54 @@ img {
 
 .strategies_text {
   margin-left: 10px;
+}
+
+.strategies_text:first-child {
+  margin-left: 10px;
+}
+
+.about_text {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.8 rem;
+  margin-left: 10px;
+}
+
+.foto {
+  border-radius: 30px;
+  display: inline-block;
+  position: right;
+}
+
+.employee__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 15px;
+}
+
+.block {
+  margin-right: 20px;
+}
+.block * > {
+  margin-bottom: 0px;
+}
+
+.employee__title {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2 rem;
+}
+
+.employee img {
+  width: 15rem;
+  height: 15rem;
+}
+
+.link:hover {
+  color: #FF9900;
 }
 
 /*# sourceMappingURL=style.css.map */

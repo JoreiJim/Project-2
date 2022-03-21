@@ -10,6 +10,7 @@
     margin: 0 0 24px;
     @extend %font-add;
     @include font($size: 1.8rem, $height: 2.8 rem, $weight: normal); 
+    margin-left: 10px;
 }
 
 .strategies__tags{
@@ -23,5 +24,9 @@
 }
 
 .strategies_text{
+    margin-left: 10px;
+}
+
+.strategies_text:first-child{
     margin-left: 10px;
 }
