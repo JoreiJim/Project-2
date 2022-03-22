@@ -659,6 +659,22 @@ img {
   margin: 0px;
 }
 
+.phone {
+  content: url(../img/icons/contact-us-phone.png);
+  position: relative;
+  display: inline;
+  width: 25px;
+  height: 25px;
+}
+
+.mail {
+  content: url(../img/icons/contact-us-mail.png);
+  position: relative;
+  display: inline;
+  width: 25px;
+  height: 25px;
+}
+
 .promo {
   padding: 30px 0;
 }
