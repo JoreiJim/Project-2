@@ -358,7 +358,7 @@ section, main, footer, header, article {
   font-family: "Open Sans", Verdana, sans-serif;
 }
 
-.link:hover, .link, .employee__title, .about_text, .strategies__description, .tool_text, .promo__text, .link_button, h1 {
+li, .link:hover, .link, .employee__title, .about_text, .strategies__description, .tool_text, .promo__text, .contact-us__text, .link_button, h1 {
   font-family: "Poppins", Verdana, sans-serif;
 }
 
@@ -587,7 +587,7 @@ img {
   justify-content: space-between;
 }
 .layout-4-columns > * {
-  flex-basis: 21%;
+  flex-basis: 20%;
 }
 
 .layout-3-columns {
@@ -605,11 +605,58 @@ img {
   justify-content: space-between;
 }
 .layaout-2-columns > * {
-  flex-basis: 45%;
+  flex-basis: 48%;
 }
 
 .contact-us {
   background-color: #FFEEE1;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.content-us__form input, .content-us__form textarea {
+  border: none;
+  background-color: #ffffff;
+  padding: 10px 21px;
+  border-radius: 5px;
+}
+.content-us__form input:focus, .content-us__form textarea:focus {
+  outline: 1px solid #FF9900;
+}
+.content-us__form textarea {
+  resize: none;
+  height: 160px;
+  width: 100%;
+}
+
+.content-us__line {
+  margin-bottom: 19px;
+}
+
+.contact-us__text {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.8 rem;
+}
+
+.contact-us__button > * {
+  min-width: 120px;
+}
+
+.contact-us__contant {
+  display: inline-block;
+}
+
+.ico__phone {
+  display: inline;
+}
+
+.image_contact-us {
+  display: inline;
+  height: 25px;
+  width: 25px;
+  margin: 0px;
 }
 
 .promo {
@@ -771,6 +818,23 @@ img {
 
 .link:hover {
   color: #FF9900;
+}
+
+li {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.8 rem;
+  list-style-type: none;
+}
+
+.footer-navigation {
+  margin-top: 30px;
+}
+
+.footer__text {
+  margin-top: 15px;
+  padding: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,5 +1,5 @@
 .layout-4-columns{
-    @include columns($width: 21%);
+    @include columns($width: 20%);
 }
 
 .layout-3-columns {
@@ -8,5 +8,5 @@
 }
 
 .layaout-2-columns{
-    @include columns($width: 45%);
+    @include columns($width: 48%);
 }

@@ -1,3 +1,52 @@
 .contact-us{
     background-color: $color-background; 
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.content-us__form{
+    input, textarea {
+        border: none;
+        background-color: $color-light;
+        padding: 10px 21px ;
+        border-radius: 5px;
+        &:focus{
+            outline: 1px solid $color-primary;
+        }
+    }
+    textarea{
+        resize: none;
+        height: 160px;
+        width: 100%;
+    }
+}
+
+.content-us__line{
+    margin-bottom: 19px;
+}
+
+.contact-us__text{    
+    @extend %font-add;
+    @include font($size: 1.8rem, $height: 2.8 rem, $weight: normal); 
+}
+
+.contact-us__button {
+    >* {
+        min-width: 120px;
+    }
+}
+
+.contact-us__contant {
+    display: inline-block;
+}
+
+.ico__phone {
+    display: inline;
+}
+
+.image_contact-us{
+    display: inline;
+    height: 25px;
+    width: 25px;
+    margin: 0px;
 }

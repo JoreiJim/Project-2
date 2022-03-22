@@ -215,21 +215,27 @@
             <h2>Contact Us</h2>
             <div class="layaout-2-columns">
                 <div class="content-us__content">
-                    <p>Your About Us page is vital. It's often the first stop any user's journey through a website or blog. It also shouldn't be their last, because first impressions count online just as much as they do in the real world. If your visitors  aren't  impressed, you can expect  them to  leaw without reading your awesome content or completing a conversion action(e.g.,signing up for yor newsletter, making a purchase).</p>
-                    <p>
-                       <span class="ico ico__phone"></span><a href="tel:+375111111111">+375 (22) 345 00 99</a>
+                    <p class="contact-us__text">Your About Us page is vital. It's often the first stop any user's journey through a website or blog. It also shouldn't be their last, because first impressions count online just as much as they do in the real world. If your visitors  aren't  impressed, you can expect  them to  leaw without reading your awesome content or completing a conversion action(e.g.,signing up for yor newsletter, making a purchase).</p>
+                    <p class="contact-us__text">
+                       <span class="ico ico__phone">
+                           <img class="image_contact-us" src="../img/icons/contact-us-phone.png" alt="">
+                           <a  href="tel:+375111111111">+375 (22) 345 00 99</a>
+                       </span>
                     </p>
-                    <p>
-                        <span class="ico ico__latter"></span><a href="mailto:emailname@gmail.com">mailto:emailname@gmail.com</a>
+                    <p class="contact-us__text">
+                        <img class="image_contact-us" src="../img/icons/contact-us-mail.png" alt="">
+                        <span class="ico ico__latter">
+                            <a href="mailto:emailname@gmail.com">mailto:emailname@gmail.com</a>
+                        </span>
                     </p>
                 </div>
                 <div class="content-us__form">
                     <form action method="post">
-                        <div class="layout-2-column">
+                        <div class="layaout-2-columns content-us__line">
                             <input type="text" name="name" placeholder="Your name">
                             <input type="email" name="email" placeholder="Your email">
                         </div>
-                        <textarea name="question" cols="30" rows="10"> </textarea>
+                        <textarea name="question" placeholder="What do you want to ask?" class="content-us__line"></textarea>
                         <div class="contact-us__button">
                             <button class="button button__colored">Send</button>
                         </div>
@@ -241,9 +247,15 @@
     <footer class="footer">
         <div class="wrapper">
             <div class="layout-4-columns">
-                <a href="#" class="logo">Jorei Portfolio</a>
+                <div class="footer-navigation"> 
+                    <ul>
+                        <li>
+                            <a href="#" class="logo">Jorei Portfolio</a>
+                        </li>
+                    </ul>                    
+                </div>                
                 <div class="footer-navigation">
-                    <h4>Quick Links</h4>
+                    <h4 class="footer__text">Quick Links</h4>
                     <ul class="footer-navigation__links">
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Blog</a></li>
@@ -252,7 +264,7 @@
                     </ul>                     
                 </div>
                 <div class="footer-navigation">
-                    <h4>Legal Stuff</h4>
+                    <h4 class="footer__text">Legal Stuff</h4>
                     <ul class="footer-navigation__links">
                         <li><a href="#">Disclaimer</a></li>
                         <li><a href="#">Financing</a></li>
@@ -261,7 +273,7 @@
                     </ul>                     
                 </div>
                 <div class="footer-navigation">
-                    <h4>Quick Links</h4>
+                    <h4 class="footer__text">Quick Links</h4>
                     <ul class="footer-navigation__links">
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Blog</a></li>

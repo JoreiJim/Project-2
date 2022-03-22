@@ -1,0 +1,16 @@
+li {
+    @extend %font-add;
+    @include font($size: 1.8rem, $height: 2.8 rem, $weight: normal); 
+    list-style-type: none;
+}
+
+.footer-navigation{
+    margin-top:30px;
+}
+
+
+
+.footer__text{
+    margin-top: 15px;
+    padding: 0px;
+}
