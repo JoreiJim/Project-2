@@ -36,9 +36,12 @@
 
 .link{
     @extend %font-add;
+    transition: all 0.3s ease-out;
+
+}
     
        
-}
+
 
 .link:hover{
     color: $color-primary;

@@ -462,6 +462,7 @@ h5 {
 }
 
 .logo:hover {
+  transition: all 0.3s ease-out;
   color: #FF9900;
 }
 
@@ -666,6 +667,10 @@ img {
   width: 25px;
   height: 25px;
 }
+.phone:hover {
+  background: #BCD0E5;
+  border-color: #BCD0E5;
+}
 
 .mail {
   content: url(../img/icons/contact-us-mail.png);
@@ -832,6 +837,10 @@ img {
   height: 15rem;
 }
 
+.link {
+  transition: all 0.3s ease-out;
+}
+
 .link:hover {
   color: #FF9900;
 }
@@ -842,6 +851,8 @@ li {
   font-weight: normal;
   line-height: 2.8 rem;
   list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 
 .footer-navigation {

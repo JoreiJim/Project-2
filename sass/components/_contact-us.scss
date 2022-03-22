@@ -57,6 +57,11 @@
     display: inline;
     width: 25px;
     height: 25px;
+    &:hover{
+        background: $color-hovered;
+            border-color: $color-hovered;
+        
+    }
 
 }
 
