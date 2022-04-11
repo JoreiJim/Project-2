@@ -358,7 +358,7 @@ section, main, footer, header, article {
   font-family: "Open Sans", Verdana, sans-serif;
 }
 
-li, .link:hover, .link, .employee__title, .about_text, .strategies__description, .tool_text, .promo__text, .contact-us__text, .link_button, h1 {
+.footer-navigation__links, .link:hover, .link, .employee__title, .about_text, .strategies__description, .tool_text, .promo__text, .contact-us__text, .link_button, h1 {
   font-family: "Poppins", Verdana, sans-serif;
 }
 
@@ -453,7 +453,7 @@ h5 {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #2F281E;
   font-weight: 900;
   text-decoration: none;
@@ -717,8 +717,12 @@ img {
 
 .navigation {
   display: flex;
-  font-size: 1.5rem;
+  margin-bottom: 0px;
+  font-size: 1.8rem;
   line-height: 2.8rem;
+}
+.navigation li {
+  margin-top: 0px;
 }
 
 .navigation_link {
@@ -846,22 +850,38 @@ img {
 }
 
 li {
-  font-size: 1.8rem;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 2.8 rem;
+  display: block;
   list-style-type: none;
+  margin-bottom: 15px;
   margin-left: 0px;
   padding-left: 0px;
 }
 
+ul {
+  padding-left: 0px;
+  margin-bottom: 40px;
+}
+
 .footer-navigation {
   margin-top: 30px;
+  flex-grow: 1;
 }
 
 .footer__text {
   margin-top: 15px;
+  margin-bottom: 40px;
   padding: 0px;
+}
+
+.footer-navigation__links {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.8 rem;
+}
+.footer-navigation__links a {
+  color: #544837;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

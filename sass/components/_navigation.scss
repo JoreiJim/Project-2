@@ -1,7 +1,13 @@
 .navigation{
     display: flex;
-    font-size: 1.5rem;
+    margin-bottom: 0px;
+    
+    font-size: 1.8rem;
     line-height: 2.8rem;
+    li{
+      margin-top: 0px;  
+    }
+    
 }
 
 .navigation_link{

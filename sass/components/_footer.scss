@@ -1,18 +1,35 @@
 li {
-    @extend %font-add;
-    @include font($size: 1.8rem, $height: 2.8 rem, $weight: normal); 
+    display: block;  
     list-style-type: none;
+    margin-bottom: 15px;
     margin-left: 0px;
     padding-left: 0px;
-}
+    }
+
+ul{
+    padding-left: 0px;
+    margin-bottom: 40px;
+}    
 
 .footer-navigation{
     margin-top:30px;
+    flex-grow: 1;
 }
-
-
 
 .footer__text{
     margin-top: 15px;
+    margin-bottom: 40px;
     padding: 0px;
 }
+
+.footer-navigation__links{
+    @extend %font-add;
+    @include font($size: 1.8rem, $height: 2.8 rem, $weight: normal); 
+    a{
+        color: $color-text;
+        text-decoration: none;
+    }
+    
+
+}
+
